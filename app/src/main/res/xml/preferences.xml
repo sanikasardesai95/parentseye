@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="Reminder_category"
+        android:title="Reminder">
+
+
+    <EditTextPreference
+        android:key="pickup_pref"
+        android:title="@string/pickup_pref"
+        android:summary="@string/pickup_summary"
+         >
+
+
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="drop_pref"
+        android:title="@string/drop_pref"
+        android:summary="@string/drop_summary"
+        android:text="Change"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="Notify_category"
+        android:title="Set Notification alert">
+
+      </PreferenceCategory>
+
+    <CheckBoxPreference
+        android:key="@string/Pickup_pref"
+        android:title="@string/Pickup_pref"
+        android:summary="@string/Pickup_summary"
+        android:defaultValue="true"/>
+    <CheckBoxPreference
+        android:key="@string/drop1_pref"
+        android:title="@string/drop1_pref"
+        android:summary="@string/drop1_summary"
+        android:defaultValue="true"/>
+
+    <CheckBoxPreference
+        android:key="@string/reach_pref"
+        android:title="@string/reach_pref"
+        android:summary="@string/reach_summary">
+
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:key="@string/left_pref"
+        android:summary="@string/left_summary"
+        android:title="@string/left_pref"
+        android:defaultValue="true"/>
+
+</PreferenceScreen>

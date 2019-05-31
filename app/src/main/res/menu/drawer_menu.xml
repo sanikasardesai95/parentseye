@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home"
+        android:checkable="true"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"/>
+    <item
+        android:id="@+id/Profile"
+        android:checkable="true"
+        android:title="Profile"
+        android:icon="@drawable/ic_person_black_24dp">
+
+    </item>
+
+    <item
+        android:id="@+id/Location"
+        android:checkable="true"
+        android:title="Edit Location"
+        android:icon="@drawable/ic_location_on_black_24dp">
+
+    </item>
+    <item
+        android:id="@+id/Settings"
+        android:checkable="true"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings_black_24dp">
+
+    </item>
+
+    <item
+        android:id="@+id/About"
+        android:checkable="true"
+        android:title="About School"
+        android:icon="@drawable/ic_school_black_24dp">
+
+    </item>
+
+    <item
+        android:id="@+id/contactus"
+        android:checkable="true"
+        android:title="Contact Us"
+        android:icon="@drawable/ic_phone_black_24dp">
+
+    </item>
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutSchoolFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/school" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="93dp"
+            android:layout_marginTop="20dp"
+            android:text="St Xaviers School"
+            android:fontFamily="sans-serif"
+            android:textColor="#F5AB17"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="219dp"
+        android:text="History of the School"
+        android:textColor="#F5AB17"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="35dp"
+        android:justificationMode="inter_word"
+        android:shadowColor="#000"
+        android:text="St. Xaviers School,Delhi is a Jesuit,catholic,Co-educational,prep school founded in 1960.It is located in Raj Niwas Margin the civil lines area of North Delhi(India).The Jesuits(Society of Jesus)are an international,Catholic-Christian religious order founded by St.lgnatius of Loyola in 1540.The school is recognised by the Directorate of education,Delhi administrator and affiliated to the central Board of Education for all India Secondary school Examination and all senior school administration."
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    </RelativeLayout>

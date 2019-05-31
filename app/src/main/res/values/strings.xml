@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">BusTracking</string>
+    <string name="Open">Open</string>
+    <string name="close">Close</string>
+    <string name="hello_blank_fragment">hello_blank_fragment</string>
+
+    <string name="pickup_pref">Pick up Remainder</string>
+    <string name="pickup_summary">
+        Currently 1.0km before pick up spot
+    </string>
+    <string name="drop_pref">Drop Remainder</string>
+    <string name="drop_summary">
+        Currently 1.0km before drop spot
+    </string>
+    <string name="notify_pref">Set Notification alert
+    </string>
+    <string name="Pickup_pref">Pick up Notification</string>
+    <string name="Pickup_summary">
+       When bus reached at pick up remainder spot
+    </string>
+    <string name="drop1_pref">Drop Notification</string>
+    <string name="drop1_summary">
+        When bus reached at drop remainder spot
+    </string>
+    <string name="reach_pref">Reached at school</string>
+    <string name="reach_summary">
+        Hangouts video call
+    </string>
+    <string name="left_pref">Left from school</string>
+    <string name="left_summary">
+        Also notify when receiving invites
+    </string>
+</resources>

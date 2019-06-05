@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
 
 
 /**
@@ -13,6 +14,7 @@ import android.view.ViewGroup;
  */
 public class SettingsFragment extends Fragment {
 
+    CheckBox checkBox1,checkBox2,checkBox3,checkBox4;
 
     public SettingsFragment() {
         // Required empty public constructor
@@ -24,6 +26,8 @@ public class SettingsFragment extends Fragment {
                              Bundle savedInstanceState) {
         ((DashboardActivity)getActivity()).setActionBarTitle("Settings");
         return inflater.inflate(R.layout.fragment_settings, container, false);
+
+
     }
 
 }

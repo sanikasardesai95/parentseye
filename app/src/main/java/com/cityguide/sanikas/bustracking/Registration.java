@@ -29,19 +29,19 @@ public class Registration extends AppCompatActivity {
                 if(CheckNo(editText.getText().toString())){
                     Toast.makeText(getApplicationContext(),"Enter the number",Toast.LENGTH_SHORT).show();
                 }
+
                 else {
                     Toast.makeText(getApplicationContext(), "Please Enter the Number", Toast.LENGTH_SHORT).show();
-
+                    Intent i=new Intent(Registration.this,OTP.class);
+                    startActivity(i);
                 }
-                Intent i=new Intent(Registration.this,OTP.class);
-                startActivity(i);
+
 
             }
 
         });
 
     }
-
 
     public boolean CheckNo(String sn) {
         Boolean check=false;
@@ -54,5 +54,7 @@ public class Registration extends AppCompatActivity {
             check=true;
         }
         return check;
+
+
     }
 }

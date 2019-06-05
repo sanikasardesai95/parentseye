@@ -7,8 +7,235 @@
     tools:context=".SettingsFragment">
 
     <TextView
+        android:id="@+id/text"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Reminder"
+        android:textSize="22sp"
+        android:layout_marginStart="20dp"
+        android:textColor="#F5AB17"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick up reminder"
+        android:textStyle="bold"
+        android:layout_below="@id/text"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/text"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="75dp"
+        android:text="@string/pickup_summary"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="-75dp"
+        android:autoLink="web"
+        android:text="Change"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:text="Drop"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="62dp"
+        android:text="@string/drop_summary" />
+
+    <TextView
+        android:id="@+id/edit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="-75dp"
+        android:text="Change"
+        android:autoLink="web"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="18sp" />
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="186dp">
+
+    </view>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/text"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="207dp"
+        android:text="Set Notification alert"
+        android:textSize="20sp"
+        android:textColor="#F5AB17"
+        android:textStyle="bold"/>
 
 
+    <TextView
+        android:id="@+id/edit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="-75dp"
+        android:autoLink="web"
+        android:text="Select all"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/text4"
+        android:layout_alignEnd="@+id/text3"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="6dp"
+        android:checked="true" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="230dp"
+        android:text="@string/Pickup_pref"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text3"
+        android:layout_alignStart="@+id/text4"
+        android:layout_marginTop="145dp"
+        android:text="@string/Pickup_summary" />
+
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/text3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="160dp"
+        android:checked="true"/>
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="180dp"
+        android:text="@string/drop1_pref"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text6"
+        android:layout_alignStart="@+id/text6"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/drop1_summary" />
+
+    <CheckBox
+        android:id="@+id/checkbox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/text3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="95dp" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/text6"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="65dp"
+        android:text="@string/reach_pref"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text7"
+        android:layout_alignStart="@+id/text7"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/reach_summary" />
+
+    <CheckBox
+        android:id="@+id/checkbox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/text3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        android:checked="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text7"
+        android:layout_alignStart="@+id/text7"
+        android:layout_marginTop="42dp"
+        android:text="@string/left_pref"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/text6"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/left_summary" />
 </RelativeLayout>

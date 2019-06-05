@@ -162,13 +162,13 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
         return true;
         }
 
-        public static class preferences extends PreferenceFragment{
+     /*  public static class preferences extends PreferenceFragment{
             @Override
             public void onCreate(Bundle savedInstanceState) {
                 super.onCreate(savedInstanceState);
                 addPreferencesFromResource(R.xml.preferences);
             }
-        }
+        }*/
     }
 
 

@@ -56,6 +56,14 @@ public class MyCustomDialog extends DialogFragment {
             }
         });
 
+        imgcheck.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imgcheck=(ImageView)view.findViewById(R.id.imgcheck);
+                getDialog().dismiss();
+            }
+        });
+
         return view;
     }
 }

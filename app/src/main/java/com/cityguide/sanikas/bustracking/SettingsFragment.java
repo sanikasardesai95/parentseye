@@ -1,6 +1,7 @@
 package com.cityguide.sanikas.bustracking;
 
 
+import android.app.Dialog;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -14,7 +15,8 @@ import android.widget.CheckBox;
  */
 public class SettingsFragment extends Fragment {
 
-    CheckBox checkBox1,checkBox2,checkBox3,checkBox4;
+    private CheckBox checkbox1,checkBox2,checkBox3,checkBox4;
+    private Dialog mdialog;
 
     public SettingsFragment() {
         // Required empty public constructor

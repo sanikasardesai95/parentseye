@@ -21,7 +21,7 @@ public class ListAdapter extends RecyclerView.Adapter {
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder viewHolder, int i) {
-        ((ListViewHolder)viewHolder).bindView(i);
+       // ((ListViewHolder)viewHolder).bindView(i);
     }
 
     @Override
@@ -41,7 +41,7 @@ public class ListAdapter extends RecyclerView.Adapter {
             public void bindView(int position){
                 mItemText.setText(OurData.title[position]);
                 mItemText.setText(OurData.title1[position]);
-                mItemImage.setImageResource(OurData.picturePath[position]);
+                //mItemImage.setImageResource(OurData.picturePath[position]);
             }
 
             public void onClick(View view){
